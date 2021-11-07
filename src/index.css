@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style-type: none;
+}
+
+
+/*Navbar*/
+.navbar { 
+  display: flex;
+  background-color:rgb(33, 59, 75);
+  height: 275px; 
+  justify-content: center;
+  color: white;
+  margin: 2px;
+  padding: 10px;
+  border: 4px solid black;
+}
+
+.navbar h1 {
+  font-size: 8vw;
+}
+
+.navbar .addHouseForm {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+/*House Cards*/
+.card {
+  background-color: rgb(72, 71, 116);
+  color: black;
+  margin: 2px;
+  padding: 10px;
+  border: 4px solid rgb(15, 8, 44);
+}
+
+.card-header {
+  background-color: rgb(7, 133, 150);
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.card-body {
+  background-color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.card-footer {
+  background-color: rgb(33, 31, 146);
+  color: white;
+}
